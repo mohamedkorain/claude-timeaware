@@ -1,0 +1,40 @@
+{
+  "name": "claude-timeaware",
+  "version": "0.1.0",
+  "description": "Make Claude Code aware of the current date and time via SessionStart/UserPromptSubmit hooks — no MCP server, zero dependencies.",
+  "type": "module",
+  "bin": {
+    "claude-timeaware": "bin/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "hooks",
+    "datetime",
+    "time-awareness",
+    "llm",
+    "anthropic"
+  ],
+  "author": "Mohamed Korain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedkorain/claude-timeaware.git"
+  },
+  "homepage": "https://github.com/mohamedkorain/claude-timeaware#readme",
+  "bugs": {
+    "url": "https://github.com/mohamedkorain/claude-timeaware/issues"
+  }
+}
